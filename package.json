@@ -1,0 +1,28 @@
+{
+  "name": "examguru-dev",
+  "version": "1.0.0",
+  "description": "ExamGuru-dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sys-anirban/examguru-dev.git"
+  },
+  "author": "Anirban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sys-anirban/examguru-dev/issues"
+  },
+  "homepage": "https://github.com/sys-anirban/examguru-dev#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
